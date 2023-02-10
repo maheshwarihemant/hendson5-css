@@ -1,0 +1,224 @@
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.box{
+    width: 100px;
+    height: 80px;
+    border: 1px solid black;
+    display: inline-block;
+    gap: 50px;
+    margin: 60px;
+     /* padding: 0px;  */
+    
+
+
+    
+    
+}
+
+@keyframes boxa{
+    0%{
+        transform: skewX(0deg);
+
+    }
+    50%{
+        transform: skewX(25deg);
+
+    }
+    100%{
+        transform: skewX(-25deg);
+    }
+
+}
+.box1{
+    animation-name: boxa;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: rgb(130, 67, 190);
+    
+}
+
+@keyframes boxb{
+    25%{
+        transform: skewy(0deg);
+
+    }
+    50%{
+        transform: skewy(-25deg);
+
+    }
+    100%{
+        transform: skewy(25deg);
+    }
+
+}
+.box2{
+    animation-name: boxb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: rgb(141, 131, 148);
+}
+@keyframes boxc{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    50%{
+        transform: rotate(50deg);
+
+    }
+    100%{
+        transform: rotate(220deg);
+    }
+
+}
+.box3{
+    animation-name: boxc;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: rgb(130, 67, 190);
+    
+}
+@keyframes boxd{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    50%{
+        transform: rotate(50deg);
+
+    }
+    100%{
+        transform: rotate(220deg);
+    }
+
+}
+.box6{
+    animation-name: boxc;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: rgb(22, 228, 19);
+    
+}
+@keyframes boxe{
+    0%{
+        transform: scaley(85%);
+
+    }
+    50%{
+        transform:scaley(133%);
+
+    }
+    100%{
+        transform: scaley(170%);
+    }
+
+}
+.box4{
+    animation-name: boxe;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: rgb(130, 67, 190);
+    
+}
+@keyframes boxf{
+    0%{
+        transform: scalex(31%);
+
+    }
+    50%{
+        transform:scalex(90%);
+
+    }
+    100%{
+        transform: scalex(150%);
+    }
+
+}
+.box5{
+    animation-name: boxf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: brown;
+    
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.boxa{
+    background-color: rgb(74, 226, 74);
+    transition: ease 3s;
+
+}
+.boxa:hover{
+
+    width: 300px;
+    
+}
+.boxb{
+    background-color: rgb(74, 226, 74);
+    transition:ease-out 3s ;
+}
+.boxb:hover{
+    width: 250px;
+    height: 400px;
+}
+.boxc{
+    background-color: rgb(74, 226, 74);
+    transition: ease-in-out 3s;
+
+}
+.boxc:hover{
+    width: 300px;
+}
+.boxd{
+    background-color: rgb(74, 226, 74);
+    transition: linear 3s;
+
+}
+.boxd:hover{
+    width: 300px;
+}
+.boxe{
+    background-color: rgb(74, 226, 74);
+    transition:ease-in 3s;
+
+}
+.boxe:hover{
+    width: 300px;
+}
+.boxf{
+    background-color: rgb(74, 226, 74);
+    transition:linear 3s ;
+}
+.boxf:hover{
+    width: 300px;
+}
+.boxg{
+    background-color: rgb(74, 226, 74);
+    transition:linear 3s ;
+}
+.boxg:hover{
+    width: 300px;
+}
+
+
+
+
+
+
+    
